@@ -18,7 +18,9 @@ public class RBFPS_UI : MonoBehaviour
 
     void Update()
     {
-        tText.text = "Velocty: " + RBFPS.S.rb.velocity;
+        tText.text = "VELOCITY: " + RBFPS.S.rb.velocity +
+            "\n\nV-MAG : " + RBFPS.S.rb.velocity.magnitude +
+            "\n\nH : " + RBFPS.S.offsetDistance;
 
     }
 

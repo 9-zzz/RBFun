@@ -7,8 +7,8 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: sb1
-  m_Shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _SUNDISK_HIGH_QUALITY
+  m_Shader: {fileID: 4800000, guid: b577cc7e2b66f4521979fd57ca0c8417, type: 3}
+  m_ShaderKeywords: _SUNDISK_HIGH_QUALITY _SWITCH2_ON _SWITCH3_ON _SWITCH4_ON
   m_LightmapFlags: 5
   m_CustomRenderQueue: 1000
   stringTagMap: {}
@@ -94,7 +94,7 @@ Material:
       data:
         first:
           name: _Exposure
-        second: 1.02
+        second: 0.6
       data:
         first:
           name: _SunDisk
@@ -143,6 +143,34 @@ Material:
         first:
           name: _Metallic
         second: 0
+      data:
+        first:
+          name: _Switch2
+        second: 1
+      data:
+        first:
+          name: _Switch3
+        second: 1
+      data:
+        first:
+          name: _Switch4
+        second: 1
+      data:
+        first:
+          name: _Exponent1
+        second: 1
+      data:
+        first:
+          name: _Exponent2
+        second: 1
+      data:
+        first:
+          name: _Exponent3
+        second: 1
+      data:
+        first:
+          name: _Exponent4
+        second: 20
     m_Colors:
       data:
         first:
@@ -160,3 +188,67 @@ Material:
         first:
           name: _GroundColor
         second: {r: 0.369, g: 0.349, b: 0.341, a: 1}
+      data:
+        first:
+          name: _BaseColor
+        second: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+      data:
+        first:
+          name: _Direction1
+        second: {r: 0, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _Direction2
+        second: {r: 0.5, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _Direction3
+        second: {r: -0.3, g: -1, b: -0.2, a: 1}
+      data:
+        first:
+          name: _Direction4
+        second: {r: 0, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _Color1
+        second: {r: 0.16, g: 0.18, b: 0.19, a: 1}
+      data:
+        first:
+          name: _Color2
+        second: {r: 0.26, g: 0.28, b: 0.21, a: 1}
+      data:
+        first:
+          name: _Color3
+        second: {r: 0.15, g: 0.15, b: 0.12, a: 1}
+      data:
+        first:
+          name: _Color4
+        second: {r: 1, g: 0.99, b: 0.95, a: 1}
+      data:
+        first:
+          name: _NormalizedVector1
+        second: {r: 0, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _NormalizedVector2
+        second: {r: 0.4472136, g: 0.8944272, b: 0, a: 0}
+      data:
+        first:
+          name: _NormalizedVector3
+        second: {r: -0.28221625, g: -0.94072086, b: -0.18814416, a: 0}
+      data:
+        first:
+          name: _NormalizedVector4
+        second: {r: 0, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _TopColor
+        second: {r: 0.625, g: 0, b: 0.16810358, a: 1}
+      data:
+        first:
+          name: _MiddleColor
+        second: {r: 0.018814886, g: 0.18910038, b: 0.21323532, a: 1}
+      data:
+        first:
+          name: _BottomColor
+        second: {r: 0, g: 0, b: 0, a: 1}
